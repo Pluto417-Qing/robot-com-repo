@@ -3,15 +3,10 @@ from rclpy.node import Node
 from protocol.srv import MotionResultCmd
 
 
-my_dog_name = "dog2"
-
-
 class basic_cmd(Node):
     def __init__(self, name):
         super().__init__(name)
-        self.client = self.create_client(
-            MotionResultCmd, f"/{my_dog_name}/motion_result_cmd"
-        )  # use my_dog_name
+        self.client = self.create_client(MotionResultCmd, "/dog2/motion_result_cmd")
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("service not available, waiting again...")
         self.request = MotionResultCmd.Request()

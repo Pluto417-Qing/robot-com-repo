@@ -5,15 +5,13 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 
-my_dog_name = "dog2"
-
 
 class sensor_suber(Node):
     """subscribe the sensor data"""
 
     def __init__(self, name) -> None:
         super().__init__(name)
-        self.declare_parameter("dog_name", my_dog_name)
+        self.declare_parameter("dog_name", "dog2")
         dog_name = self.get_parameter("dog_name").get_parameter_value().string_value
         self.sub = self.create_subscription(
             Range, f"/{dog_name}/ultrasonic_payload", self.sub_callback, 10

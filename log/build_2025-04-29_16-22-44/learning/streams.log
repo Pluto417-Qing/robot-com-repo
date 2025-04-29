@@ -1,0 +1,50 @@
+[3.897s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/src/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning build --build-base /home/mi/workplace/src/build/learning/build install --prefix /home/mi/workplace/src/install/learning --record /home/mi/workplace/src/build/learning/install.log --single-version-externally-managed
+[5.533s] running egg_info
+[5.535s] creating ../build/learning/learning.egg-info
+[5.536s] writing ../build/learning/learning.egg-info/PKG-INFO
+[5.538s] writing dependency_links to ../build/learning/learning.egg-info/dependency_links.txt
+[5.539s] writing entry points to ../build/learning/learning.egg-info/entry_points.txt
+[5.539s] writing requirements to ../build/learning/learning.egg-info/requires.txt
+[5.540s] writing top-level names to ../build/learning/learning.egg-info/top_level.txt
+[5.546s] writing manifest file '../build/learning/learning.egg-info/SOURCES.txt'
+[5.556s] reading manifest file '../build/learning/learning.egg-info/SOURCES.txt'
+[5.559s] writing manifest file '../build/learning/learning.egg-info/SOURCES.txt'
+[5.560s] running build
+[5.560s] running build_py
+[5.561s] creating /home/mi/workplace/src/build/learning/build
+[5.562s] creating /home/mi/workplace/src/build/learning/build/lib
+[5.564s] creating /home/mi/workplace/src/build/learning/build/lib/learning
+[5.564s] copying learning/stand.py -> /home/mi/workplace/src/build/learning/build/lib/learning
+[5.565s] copying learning/sensor_msg.py -> /home/mi/workplace/src/build/learning/build/lib/learning
+[5.566s] copying learning/down.py -> /home/mi/workplace/src/build/learning/build/lib/learning
+[5.566s] copying learning/walk.py -> /home/mi/workplace/src/build/learning/build/lib/learning
+[5.567s] copying learning/__init__.py -> /home/mi/workplace/src/build/learning/build/lib/learning
+[5.567s] running install
+[5.568s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.568s]   setuptools.SetuptoolsDeprecationWarning,
+[5.569s] running install_lib
+[5.571s] creating /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.571s] copying /home/mi/workplace/src/build/learning/build/lib/learning/stand.py -> /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.572s] copying /home/mi/workplace/src/build/learning/build/lib/learning/sensor_msg.py -> /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.573s] copying /home/mi/workplace/src/build/learning/build/lib/learning/down.py -> /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.573s] copying /home/mi/workplace/src/build/learning/build/lib/learning/walk.py -> /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.574s] copying /home/mi/workplace/src/build/learning/build/lib/learning/__init__.py -> /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning
+[5.575s] byte-compiling /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning/stand.py to stand.cpython-36.pyc
+[5.578s] byte-compiling /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning/sensor_msg.py to sensor_msg.cpython-36.pyc
+[5.579s] byte-compiling /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning/down.py to down.cpython-36.pyc
+[5.581s] byte-compiling /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning/walk.py to walk.cpython-36.pyc
+[5.583s] byte-compiling /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning/__init__.py to __init__.cpython-36.pyc
+[5.584s] running install_data
+[5.586s] creating /home/mi/workplace/src/install/learning/share/ament_index
+[5.587s] creating /home/mi/workplace/src/install/learning/share/ament_index/resource_index
+[5.588s] creating /home/mi/workplace/src/install/learning/share/ament_index/resource_index/packages
+[5.588s] copying resource/learning -> /home/mi/workplace/src/install/learning/share/ament_index/resource_index/packages
+[5.589s] copying package.xml -> /home/mi/workplace/src/install/learning/share/learning
+[5.589s] running install_egg_info
+[5.595s] Copying ../build/learning/learning.egg-info to /home/mi/workplace/src/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[5.599s] running install_scripts
+[5.689s] Installing sensor_msg script to /home/mi/workplace/src/install/learning/lib/learning
+[5.689s] Installing stand script to /home/mi/workplace/src/install/learning/lib/learning
+[5.690s] Installing walk script to /home/mi/workplace/src/install/learning/lib/learning
+[5.691s] writing list of installed files to '/home/mi/workplace/src/build/learning/install.log'
+[5.808s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/src/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning build --build-base /home/mi/workplace/src/build/learning/build install --prefix /home/mi/workplace/src/install/learning --record /home/mi/workplace/src/build/learning/install.log --single-version-externally-managed

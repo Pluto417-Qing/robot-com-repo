@@ -1,0 +1,6 @@
+[console_scripts]
+down = learning.down:main
+sensor_msg = learning.sensor_msg:main
+stand = learning.stand:main
+walk = learning.walk:main
+

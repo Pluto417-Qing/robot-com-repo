@@ -5,20 +5,18 @@ import rclpy
 from rclpy.node import Node
 from protocol.msg import MotionServoCmd
 
-my_dog_name = "dog2"
-
 
 class basic_move(Node):
     def __init__(self, name):
         """include speed in three directions"""
         super().__init__(name)
         self.speed_x, self.speed_y, self.speed_z = 0.0, 0.0, 0.0
-        self.dog_name = my_dog_name
+        self.dog_name = "dog2"
         # self.declare_parameter("speed_x", 0.0)
         # self.declare_parameter("speed_y", 0.0)
         # self.declare_parameter("speed_z", 0.0)
-        # self.declare_parameter("gait", "walk")
-        # self.declare_parameter("dog_name", my_dog_name)
+        # self.declare_parameter("gait", "dog2")
+        # self.declare_parameter("dog_name", "dog2")
         # self.dog_name = (
         #     self.get_parameter("dog_name").get_parameter_value().string_value
         # )

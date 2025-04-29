@@ -22,6 +22,8 @@ setup(
             "stand = learning.stand:main",
             "sensor_msg = learning.sensor_msg:main",
             "walk = learning.walk:main",
+            "liedown = learning.down:main",
+            "camera_realsense = learning.camera_realsense:main",
         ],
     },
 )
