@@ -1,0 +1,35 @@
+[8.082s] Invoking command in '/home/mi/workspace/src/visual': PYTHONPATH=/home/mi/workspace/install/visual/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/visual build --build-base /home/mi/workspace/build/visual/build install --prefix /home/mi/workspace/install/visual --record /home/mi/workspace/build/visual/install.log --single-version-externally-managed
+[9.710s] running egg_info
+[9.713s] creating ../../build/visual/visual.egg-info
+[9.722s] writing ../../build/visual/visual.egg-info/PKG-INFO
+[9.726s] writing dependency_links to ../../build/visual/visual.egg-info/dependency_links.txt
+[9.727s] writing entry points to ../../build/visual/visual.egg-info/entry_points.txt
+[9.729s] writing requirements to ../../build/visual/visual.egg-info/requires.txt
+[9.732s] writing top-level names to ../../build/visual/visual.egg-info/top_level.txt
+[9.733s] writing manifest file '../../build/visual/visual.egg-info/SOURCES.txt'
+[9.741s] reading manifest file '../../build/visual/visual.egg-info/SOURCES.txt'
+[9.756s] writing manifest file '../../build/visual/visual.egg-info/SOURCES.txt'
+[9.757s] running build
+[9.760s] running build_py
+[9.764s] creating /home/mi/workspace/build/visual/build
+[9.772s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.773s]   setuptools.SetuptoolsDeprecationWarning,
+[9.774s] creating /home/mi/workspace/build/visual/build/lib
+[9.775s] creating /home/mi/workspace/build/visual/build/lib/visual
+[9.777s] copying visual/__init__.py -> /home/mi/workspace/build/visual/build/lib/visual
+[9.777s] running install
+[9.778s] running install_lib
+[9.783s] creating /home/mi/workspace/install/visual/lib/python3.6/site-packages/visual
+[9.787s] copying /home/mi/workspace/build/visual/build/lib/visual/__init__.py -> /home/mi/workspace/install/visual/lib/python3.6/site-packages/visual
+[9.787s] byte-compiling /home/mi/workspace/install/visual/lib/python3.6/site-packages/visual/__init__.py to __init__.cpython-36.pyc
+[9.788s] running install_data
+[9.791s] creating /home/mi/workspace/install/visual/share/ament_index
+[9.799s] creating /home/mi/workspace/install/visual/share/ament_index/resource_index
+[9.800s] creating /home/mi/workspace/install/visual/share/ament_index/resource_index/packages
+[9.801s] copying resource/visual -> /home/mi/workspace/install/visual/share/ament_index/resource_index/packages
+[9.804s] copying package.xml -> /home/mi/workspace/install/visual/share/visual
+[9.804s] running install_egg_info
+[9.805s] Copying ../../build/visual/visual.egg-info to /home/mi/workspace/install/visual/lib/python3.6/site-packages/visual-0.0.0-py3.6.egg-info
+[9.807s] running install_scripts
+[9.856s] writing list of installed files to '/home/mi/workspace/build/visual/install.log'
+[9.960s] Invoked command in '/home/mi/workspace/src/visual' returned '0': PYTHONPATH=/home/mi/workspace/install/visual/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/visual build --build-base /home/mi/workspace/build/visual/build install --prefix /home/mi/workspace/install/visual --record /home/mi/workspace/build/visual/install.log --single-version-externally-managed

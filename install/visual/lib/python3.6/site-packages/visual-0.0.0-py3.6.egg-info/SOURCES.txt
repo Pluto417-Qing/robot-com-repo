@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/visual/visual.egg-info/PKG-INFO
+../../build/visual/visual.egg-info/SOURCES.txt
+../../build/visual/visual.egg-info/dependency_links.txt
+../../build/visual/visual.egg-info/entry_points.txt
+../../build/visual/visual.egg-info/requires.txt
+../../build/visual/visual.egg-info/top_level.txt
+../../build/visual/visual.egg-info/zip-safe
+resource/visual
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+visual/__init__.py

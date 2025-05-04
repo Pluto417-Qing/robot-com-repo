@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/robot_comp/robot_comp.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_comp/robot_comp.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_comp/robot_comp.egg-info/entry_points.txt
+writing requirements to ../../build/robot_comp/robot_comp.egg-info/requires.txt
+writing top-level names to ../../build/robot_comp/robot_comp.egg-info/top_level.txt
+reading manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_comp/main.py -> /home/mi/workspace/build/robot_comp/build/lib/robot_comp
+running install
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+running install_lib
+copying /home/mi/workspace/build/robot_comp/build/lib/robot_comp/main.py -> /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp
+byte-compiling /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp/main.py to main.cpython-36.pyc
+running install_data
+running install_egg_info
+removing '/home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/robot_comp/robot_comp.egg-info to /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info
+running install_scripts
+Installing main script to /home/mi/workspace/install/robot_comp/lib/robot_comp
+writing list of installed files to '/home/mi/workspace/build/robot_comp/install.log'

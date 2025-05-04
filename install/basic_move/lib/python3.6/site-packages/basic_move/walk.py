@@ -1,13 +1,12 @@
 # ----make the dog walk without stop----#
 
-
 import rclpy
 from rclpy.node import Node
 from protocol.msg import MotionServoCmd
 
 my_dog_name = "dog1"
 
-class basic_move(Node):
+class walk(Node):
     def __init__(self, name):
         """include speed in three directions"""
         super().__init__(name)
@@ -48,7 +47,7 @@ class basic_move(Node):
 def main(args=None):
     rclpy.init(args=args)
     try:
-        node = basic_move("basic_move")
+        node = walk("walk")
         rclpy.spin(node)
     except KeyboardInterrupt:
         node.get_logger().info("KeyboardInterrupt")

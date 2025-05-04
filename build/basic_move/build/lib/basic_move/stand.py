@@ -2,10 +2,9 @@ import rclpy
 from rclpy.node import Node
 from protocol.srv import MotionResultCmd
 
-
 my_dog_name = "dog1"
 
-class basic_cmd(Node):
+class stand(Node):
     def __init__(self, name):
         super().__init__(name)
         self.client = self.create_client(
@@ -22,7 +21,7 @@ class basic_cmd(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = basic_cmd("basic_cmd")
+    node = stand("stand")
     node.send_request()
     while rclpy.ok():
         rclpy.spin_once(node)
