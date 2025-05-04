@@ -1,0 +1,35 @@
+[6.029s] Invoking command in '/home/mi/workspace/src/robot_comp': PYTHONPATH=/home/mi/workspace/install/robot_comp/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_comp build --build-base /home/mi/workspace/build/robot_comp/build install --prefix /home/mi/workspace/install/robot_comp --record /home/mi/workspace/build/robot_comp/install.log --single-version-externally-managed
+[7.536s] running egg_info
+[7.540s] creating ../../build/robot_comp/robot_comp.egg-info
+[7.541s] writing ../../build/robot_comp/robot_comp.egg-info/PKG-INFO
+[7.543s] writing dependency_links to ../../build/robot_comp/robot_comp.egg-info/dependency_links.txt
+[7.543s] writing entry points to ../../build/robot_comp/robot_comp.egg-info/entry_points.txt
+[7.544s] writing requirements to ../../build/robot_comp/robot_comp.egg-info/requires.txt
+[7.544s] writing top-level names to ../../build/robot_comp/robot_comp.egg-info/top_level.txt
+[7.553s] writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+[7.561s] reading manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+[7.566s] writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+[7.567s] running build
+[7.568s] running build_py
+[7.569s] creating /home/mi/workspace/build/robot_comp/build
+[7.571s] creating /home/mi/workspace/build/robot_comp/build/lib
+[7.571s] creating /home/mi/workspace/build/robot_comp/build/lib/robot_comp
+[7.572s] copying robot_comp/__init__.py -> /home/mi/workspace/build/robot_comp/build/lib/robot_comp
+[7.573s] running install
+[7.574s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.575s]   setuptools.SetuptoolsDeprecationWarning,
+[7.575s] running install_lib
+[7.576s] creating /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp
+[7.577s] copying /home/mi/workspace/build/robot_comp/build/lib/robot_comp/__init__.py -> /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp
+[7.579s] byte-compiling /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp/__init__.py to __init__.cpython-36.pyc
+[7.582s] running install_data
+[7.583s] creating /home/mi/workspace/install/robot_comp/share/ament_index
+[7.584s] creating /home/mi/workspace/install/robot_comp/share/ament_index/resource_index
+[7.585s] creating /home/mi/workspace/install/robot_comp/share/ament_index/resource_index/packages
+[7.585s] copying resource/robot_comp -> /home/mi/workspace/install/robot_comp/share/ament_index/resource_index/packages
+[7.586s] copying package.xml -> /home/mi/workspace/install/robot_comp/share/robot_comp
+[7.590s] running install_egg_info
+[7.599s] Copying ../../build/robot_comp/robot_comp.egg-info to /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info
+[7.612s] running install_scripts
+[7.700s] writing list of installed files to '/home/mi/workspace/build/robot_comp/install.log'
+[7.807s] Invoked command in '/home/mi/workspace/src/robot_comp' returned '0': PYTHONPATH=/home/mi/workspace/install/robot_comp/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_comp build --build-base /home/mi/workspace/build/robot_comp/build install --prefix /home/mi/workspace/install/robot_comp --record /home/mi/workspace/build/robot_comp/install.log --single-version-externally-managed

@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.002983] (-) JobUnselected: {'identifier': 'robot_comp'}
+[0.003184] (basic_move) JobQueued: {'identifier': 'basic_move', 'dependencies': OrderedDict()}
+[0.003376] (basic_move) JobStarted: {'identifier': 'basic_move'}
+[0.104072] (-) TimerEvent: {}
+[0.208730] (-) TimerEvent: {}
+[0.311070] (-) TimerEvent: {}
+[0.412139] (-) TimerEvent: {}
+[0.513504] (-) TimerEvent: {}
+[0.614562] (-) TimerEvent: {}
+[0.715638] (-) TimerEvent: {}
+[0.816672] (-) TimerEvent: {}
+[0.917800] (-) TimerEvent: {}
+[1.018898] (-) TimerEvent: {}
+[1.119895] (-) TimerEvent: {}
+[1.220922] (-) TimerEvent: {}
+[1.321877] (-) TimerEvent: {}
+[1.422909] (-) TimerEvent: {}
+[1.523946] (-) TimerEvent: {}
+[1.625144] (-) TimerEvent: {}
+[1.726108] (-) TimerEvent: {}
+[1.827548] (-) TimerEvent: {}
+[1.929382] (-) TimerEvent: {}
+[2.030408] (-) TimerEvent: {}
+[2.131345] (-) TimerEvent: {}
+[2.232404] (-) TimerEvent: {}
+[2.333455] (-) TimerEvent: {}
+[2.434367] (-) TimerEvent: {}
+[2.535330] (-) TimerEvent: {}
+[2.636338] (-) TimerEvent: {}
+[2.737430] (-) TimerEvent: {}
+[2.838428] (-) TimerEvent: {}
+[2.939391] (-) TimerEvent: {}
+[3.040538] (-) TimerEvent: {}
+[3.141676] (-) TimerEvent: {}
+[3.242675] (-) TimerEvent: {}
+[3.343658] (-) TimerEvent: {}
+[3.444558] (-) TimerEvent: {}
+[3.545599] (-) TimerEvent: {}
+[3.646672] (-) TimerEvent: {}
+[3.747817] (-) TimerEvent: {}
+[3.837351] (basic_move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/basic_move', 'build', '--build-base', '/home/mi/workspace/build/basic_move/build', 'install', '--prefix', '/home/mi/workspace/install/basic_move', '--record', '/home/mi/workspace/build/basic_move/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workspace/src/basic_move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.208 55538 22', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'SHLVL': '1', 'CONDA_SHLVL': '0', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'OLDPWD': '/home/mi/workspace/src', 'SSH_TTY': '/dev/pts/21', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'COLCON_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '22', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/SDCARD/miniconda3/condabin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic', 'CONDA_PYTHON_EXE': '/SDCARD/miniconda3/bin/python', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mi/workspace/build/basic_move', 'CONDA_EXE': '/SDCARD/miniconda3/bin/conda', 'SSH_CONNECTION': '10.0.0.208 55538 10.0.0.127 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workspace/install/basic_move/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[3.866286] (-) TimerEvent: {}
+[3.967605] (-) TimerEvent: {}
+[4.068598] (-) TimerEvent: {}
+[4.169713] (-) TimerEvent: {}
+[4.270856] (-) TimerEvent: {}
+[4.372553] (-) TimerEvent: {}
+[4.473874] (-) TimerEvent: {}
+[4.574915] (-) TimerEvent: {}
+[4.675963] (-) TimerEvent: {}
+[4.777050] (-) TimerEvent: {}
+[4.879891] (-) TimerEvent: {}
+[4.981173] (-) TimerEvent: {}
+[5.082134] (-) TimerEvent: {}
+[5.183672] (-) TimerEvent: {}
+[5.284715] (-) TimerEvent: {}
+[5.367128] (basic_move) StdoutLine: {'line': b'running egg_info\n'}
+[5.370157] (basic_move) StdoutLine: {'line': b'writing ../../build/basic_move/basic_move.egg-info/PKG-INFO\n'}
+[5.371808] (basic_move) StdoutLine: {'line': b'writing dependency_links to ../../build/basic_move/basic_move.egg-info/dependency_links.txt\n'}
+[5.375950] (basic_move) StdoutLine: {'line': b'writing entry points to ../../build/basic_move/basic_move.egg-info/entry_points.txt\n'}
+[5.377388] (basic_move) StdoutLine: {'line': b'writing requirements to ../../build/basic_move/basic_move.egg-info/requires.txt\n'}
+[5.380018] (basic_move) StdoutLine: {'line': b'writing top-level names to ../../build/basic_move/basic_move.egg-info/top_level.txt\n'}
+[5.385852] (-) TimerEvent: {}
+[5.395897] (basic_move) StdoutLine: {'line': b"reading manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'\n"}
+[5.403786] (basic_move) StdoutLine: {'line': b"writing manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'\n"}
+[5.405347] (basic_move) StdoutLine: {'line': b'running build\n'}
+[5.405935] (basic_move) StdoutLine: {'line': b'running build_py\n'}
+[5.406765] (basic_move) StdoutLine: {'line': b'running install\n'}
+[5.407893] (basic_move) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.410699] (basic_move) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.411369] (basic_move) StdoutLine: {'line': b'running install_lib\n'}
+[5.414871] (basic_move) StdoutLine: {'line': b'running install_data\n'}
+[5.417483] (basic_move) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.425855] (basic_move) StdoutLine: {'line': b"removing '/home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.427787] (basic_move) StdoutLine: {'line': b'Copying ../../build/basic_move/basic_move.egg-info to /home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info\n'}
+[5.432924] (basic_move) StdoutLine: {'line': b'running install_scripts\n'}
+[5.486045] (-) TimerEvent: {}
+[5.531169] (basic_move) StdoutLine: {'line': b'Installing liedown script to /home/mi/workspace/install/basic_move/lib/basic_move\n'}
+[5.532256] (basic_move) StdoutLine: {'line': b'Installing stand script to /home/mi/workspace/install/basic_move/lib/basic_move\n'}
+[5.533354] (basic_move) StdoutLine: {'line': b'Installing walk script to /home/mi/workspace/install/basic_move/lib/basic_move\n'}
+[5.535002] (basic_move) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workspace/build/basic_move/install.log'\n"}
+[5.586309] (-) TimerEvent: {}
+[5.651343] (basic_move) CommandEnded: {'returncode': 0}
+[5.688723] (-) TimerEvent: {}
+[5.725837] (basic_move) JobEnded: {'identifier': 'basic_move', 'rc': 0}
+[5.731310] (-) EventReactorShutdown: {}

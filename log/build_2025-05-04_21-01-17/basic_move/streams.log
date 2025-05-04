@@ -1,0 +1,28 @@
+[5.988s] Invoking command in '/home/mi/workspace/src/basic_move': PYTHONPATH=/home/mi/workspace/install/basic_move/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_move build --build-base /home/mi/workspace/build/basic_move/build install --prefix /home/mi/workspace/install/basic_move --record /home/mi/workspace/build/basic_move/install.log --single-version-externally-managed
+[7.642s] running egg_info
+[7.646s] writing ../../build/basic_move/basic_move.egg-info/PKG-INFO
+[7.647s] writing dependency_links to ../../build/basic_move/basic_move.egg-info/dependency_links.txt
+[7.649s] writing entry points to ../../build/basic_move/basic_move.egg-info/entry_points.txt
+[7.650s] writing requirements to ../../build/basic_move/basic_move.egg-info/requires.txt
+[7.653s] writing top-level names to ../../build/basic_move/basic_move.egg-info/top_level.txt
+[7.664s] reading manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'
+[7.674s] writing manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'
+[7.677s] running build
+[7.677s] running build_py
+[7.678s] copying basic_move/walk.py -> /home/mi/workspace/build/basic_move/build/lib/basic_move
+[7.680s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.682s]   setuptools.SetuptoolsDeprecationWarning,
+[7.683s] running install
+[7.683s] running install_lib
+[7.684s] copying /home/mi/workspace/build/basic_move/build/lib/basic_move/walk.py -> /home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move
+[7.685s] byte-compiling /home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move/walk.py to walk.cpython-36.pyc
+[7.687s] running install_data
+[7.689s] running install_egg_info
+[7.698s] removing '/home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info' (and everything under it)
+[7.699s] Copying ../../build/basic_move/basic_move.egg-info to /home/mi/workspace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info
+[7.705s] running install_scripts
+[7.800s] Installing liedown script to /home/mi/workspace/install/basic_move/lib/basic_move
+[7.801s] Installing stand script to /home/mi/workspace/install/basic_move/lib/basic_move
+[7.803s] Installing walk script to /home/mi/workspace/install/basic_move/lib/basic_move
+[7.805s] writing list of installed files to '/home/mi/workspace/build/basic_move/install.log'
+[7.982s] Invoked command in '/home/mi/workspace/src/basic_move' returned '0': PYTHONPATH=/home/mi/workspace/install/basic_move/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_move build --build-base /home/mi/workspace/build/basic_move/build install --prefix /home/mi/workspace/install/basic_move --record /home/mi/workspace/build/basic_move/install.log --single-version-externally-managed

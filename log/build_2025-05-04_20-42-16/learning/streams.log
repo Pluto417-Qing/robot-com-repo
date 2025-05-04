@@ -1,0 +1,30 @@
+[4.098s] Invoking command in '/home/mi/workspace/learning': PYTHONPATH=/home/mi/workspace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning build --build-base /home/mi/workspace/build/learning/build install --prefix /home/mi/workspace/install/learning --record /home/mi/workspace/build/learning/install.log --single-version-externally-managed
+[5.671s] running egg_info
+[5.673s] writing ../build/learning/learning.egg-info/PKG-INFO
+[5.674s] writing dependency_links to ../build/learning/learning.egg-info/dependency_links.txt
+[5.676s] writing entry points to ../build/learning/learning.egg-info/entry_points.txt
+[5.676s] writing requirements to ../build/learning/learning.egg-info/requires.txt
+[5.677s] writing top-level names to ../build/learning/learning.egg-info/top_level.txt
+[5.696s] reading manifest file '../build/learning/learning.egg-info/SOURCES.txt'
+[5.702s] writing manifest file '../build/learning/learning.egg-info/SOURCES.txt'
+[5.702s] running build
+[5.703s] running build_py
+[5.704s] copying learning/camera_realsense.py -> /home/mi/workspace/build/learning/build/lib/learning
+[5.706s] running install
+[5.707s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.708s]   setuptools.SetuptoolsDeprecationWarning,
+[5.709s] running install_lib
+[5.713s] copying /home/mi/workspace/build/learning/build/lib/learning/camera_realsense.py -> /home/mi/workspace/install/learning/lib/python3.6/site-packages/learning
+[5.716s] byte-compiling /home/mi/workspace/install/learning/lib/python3.6/site-packages/learning/camera_realsense.py to camera_realsense.cpython-36.pyc
+[5.717s] running install_data
+[5.720s] running install_egg_info
+[5.728s] removing '/home/mi/workspace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[5.730s] Copying ../build/learning/learning.egg-info to /home/mi/workspace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[5.735s] running install_scripts
+[5.829s] Installing camera_realsense script to /home/mi/workspace/install/learning/lib/learning
+[5.830s] Installing liedown script to /home/mi/workspace/install/learning/lib/learning
+[5.831s] Installing sensor_msg script to /home/mi/workspace/install/learning/lib/learning
+[5.834s] Installing stand script to /home/mi/workspace/install/learning/lib/learning
+[5.835s] Installing walk script to /home/mi/workspace/install/learning/lib/learning
+[5.840s] writing list of installed files to '/home/mi/workspace/build/learning/install.log'
+[5.954s] Invoked command in '/home/mi/workspace/learning' returned '0': PYTHONPATH=/home/mi/workspace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/learning build --build-base /home/mi/workspace/build/learning/build install --prefix /home/mi/workspace/install/learning --record /home/mi/workspace/build/learning/install.log --single-version-externally-managed

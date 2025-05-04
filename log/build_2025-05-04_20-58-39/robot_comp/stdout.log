@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_comp/robot_comp.egg-info
+writing ../../build/robot_comp/robot_comp.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_comp/robot_comp.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_comp/robot_comp.egg-info/entry_points.txt
+writing requirements to ../../build/robot_comp/robot_comp.egg-info/requires.txt
+writing top-level names to ../../build/robot_comp/robot_comp.egg-info/top_level.txt
+writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mi/workspace/build/robot_comp/build
+creating /home/mi/workspace/build/robot_comp/build/lib
+creating /home/mi/workspace/build/robot_comp/build/lib/robot_comp
+copying robot_comp/__init__.py -> /home/mi/workspace/build/robot_comp/build/lib/robot_comp
+running install
+running install_lib
+creating /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp
+copying /home/mi/workspace/build/robot_comp/build/lib/robot_comp/__init__.py -> /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp
+byte-compiling /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/mi/workspace/install/robot_comp/share/ament_index
+creating /home/mi/workspace/install/robot_comp/share/ament_index/resource_index
+creating /home/mi/workspace/install/robot_comp/share/ament_index/resource_index/packages
+copying resource/robot_comp -> /home/mi/workspace/install/robot_comp/share/ament_index/resource_index/packages
+copying package.xml -> /home/mi/workspace/install/robot_comp/share/robot_comp
+running install_egg_info
+Copying ../../build/robot_comp/robot_comp.egg-info to /home/mi/workspace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info
+running install_scripts
+writing list of installed files to '/home/mi/workspace/build/robot_comp/install.log'

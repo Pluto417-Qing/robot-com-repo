@@ -1,0 +1,5 @@
+[console_scripts]
+liedown = basic_move.liedown:main
+stand = basic_move.stand:main
+walk = basic_move.walk:main
+
