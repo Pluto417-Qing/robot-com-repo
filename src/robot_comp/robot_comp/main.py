@@ -9,4 +9,5 @@ my_dog_name = "dog1"
 main logic code lies here
 '''
 def main(Node):
-    pass
+    rclpy.init(args=None)
+    rclpy.shutdown()        
