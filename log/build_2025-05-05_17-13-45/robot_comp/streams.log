@@ -1,0 +1,23 @@
+[8.205s] Invoking command in '/home/mi/workplace/src/robot_comp': PYTHONPATH=/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_comp build --build-base /home/mi/workplace/build/robot_comp/build install --prefix /home/mi/workplace/install/robot_comp --record /home/mi/workplace/build/robot_comp/install.log --single-version-externally-managed
+[10.175s] running egg_info
+[10.177s] writing ../../build/robot_comp/robot_comp.egg-info/PKG-INFO
+[10.180s] writing dependency_links to ../../build/robot_comp/robot_comp.egg-info/dependency_links.txt
+[10.182s] writing entry points to ../../build/robot_comp/robot_comp.egg-info/entry_points.txt
+[10.183s] writing requirements to ../../build/robot_comp/robot_comp.egg-info/requires.txt
+[10.183s] writing top-level names to ../../build/robot_comp/robot_comp.egg-info/top_level.txt
+[10.202s] reading manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+[10.213s] writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'
+[10.214s] running build
+[10.215s] running build_py
+[10.215s] running install
+[10.218s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.219s]   setuptools.SetuptoolsDeprecationWarning,
+[10.220s] running install_lib
+[10.228s] running install_data
+[10.232s] running install_egg_info
+[10.249s] removing '/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info' (and everything under it)
+[10.259s] Copying ../../build/robot_comp/robot_comp.egg-info to /home/mi/workplace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info
+[10.260s] running install_scripts
+[10.355s] Installing main script to /home/mi/workplace/install/robot_comp/lib/robot_comp
+[10.356s] writing list of installed files to '/home/mi/workplace/build/robot_comp/install.log'
+[10.482s] Invoked command in '/home/mi/workplace/src/robot_comp' returned '0': PYTHONPATH=/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_comp build --build-base /home/mi/workplace/build/robot_comp/build install --prefix /home/mi/workplace/install/robot_comp --record /home/mi/workplace/build/robot_comp/install.log --single-version-externally-managed

@@ -13,3 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 visual/__init__.py
+visual/ball_tracker.py
+visual/img_save.py

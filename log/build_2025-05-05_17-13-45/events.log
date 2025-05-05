@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.001332] (basic_move) JobQueued: {'identifier': 'basic_move', 'dependencies': OrderedDict()}
+[0.002743] (robot_comp) JobQueued: {'identifier': 'robot_comp', 'dependencies': OrderedDict()}
+[0.003633] (visual) JobQueued: {'identifier': 'visual', 'dependencies': OrderedDict()}
+[0.005289] (basic_move) JobStarted: {'identifier': 'basic_move'}
+[0.098927] (-) TimerEvent: {}
+[0.113239] (robot_comp) JobStarted: {'identifier': 'robot_comp'}
+[0.202338] (visual) JobStarted: {'identifier': 'visual'}
+[0.203394] (-) TimerEvent: {}
+[0.305275] (-) TimerEvent: {}
+[0.408694] (-) TimerEvent: {}
+[0.509782] (-) TimerEvent: {}
+[0.610868] (-) TimerEvent: {}
+[0.711931] (-) TimerEvent: {}
+[0.812916] (-) TimerEvent: {}
+[0.914025] (-) TimerEvent: {}
+[1.015031] (-) TimerEvent: {}
+[1.116074] (-) TimerEvent: {}
+[1.217148] (-) TimerEvent: {}
+[1.318258] (-) TimerEvent: {}
+[1.419268] (-) TimerEvent: {}
+[1.520323] (-) TimerEvent: {}
+[1.621449] (-) TimerEvent: {}
+[1.722531] (-) TimerEvent: {}
+[1.823570] (-) TimerEvent: {}
+[1.924666] (-) TimerEvent: {}
+[2.027901] (-) TimerEvent: {}
+[2.130461] (-) TimerEvent: {}
+[2.233385] (-) TimerEvent: {}
+[2.334373] (-) TimerEvent: {}
+[2.435394] (-) TimerEvent: {}
+[2.536523] (-) TimerEvent: {}
+[2.638110] (-) TimerEvent: {}
+[2.739068] (-) TimerEvent: {}
+[2.840065] (-) TimerEvent: {}
+[2.941087] (-) TimerEvent: {}
+[3.042137] (-) TimerEvent: {}
+[3.143024] (-) TimerEvent: {}
+[3.245135] (-) TimerEvent: {}
+[3.346214] (-) TimerEvent: {}
+[3.448491] (-) TimerEvent: {}
+[3.550161] (-) TimerEvent: {}
+[3.651274] (-) TimerEvent: {}
+[3.752345] (-) TimerEvent: {}
+[3.853480] (-) TimerEvent: {}
+[3.955007] (-) TimerEvent: {}
+[4.057152] (-) TimerEvent: {}
+[4.158156] (-) TimerEvent: {}
+[4.259166] (-) TimerEvent: {}
+[4.360223] (-) TimerEvent: {}
+[4.461306] (-) TimerEvent: {}
+[4.562444] (-) TimerEvent: {}
+[4.663541] (-) TimerEvent: {}
+[4.764632] (-) TimerEvent: {}
+[4.865827] (-) TimerEvent: {}
+[4.966799] (-) TimerEvent: {}
+[5.067812] (-) TimerEvent: {}
+[5.168783] (-) TimerEvent: {}
+[5.269941] (-) TimerEvent: {}
+[5.370994] (-) TimerEvent: {}
+[5.471976] (-) TimerEvent: {}
+[5.573043] (-) TimerEvent: {}
+[5.674115] (-) TimerEvent: {}
+[5.775665] (-) TimerEvent: {}
+[5.880232] (-) TimerEvent: {}
+[5.982209] (-) TimerEvent: {}
+[6.083245] (-) TimerEvent: {}
+[6.184343] (-) TimerEvent: {}
+[6.285891] (-) TimerEvent: {}
+[6.388336] (-) TimerEvent: {}
+[6.496275] (-) TimerEvent: {}
+[6.597549] (-) TimerEvent: {}
+[6.698962] (-) TimerEvent: {}
+[6.800102] (-) TimerEvent: {}
+[6.902246] (-) TimerEvent: {}
+[7.003842] (-) TimerEvent: {}
+[7.104898] (-) TimerEvent: {}
+[7.206239] (-) TimerEvent: {}
+[7.307482] (-) TimerEvent: {}
+[7.409211] (-) TimerEvent: {}
+[7.510801] (-) TimerEvent: {}
+[7.611789] (-) TimerEvent: {}
+[7.713635] (-) TimerEvent: {}
+[7.815211] (-) TimerEvent: {}
+[7.916527] (-) TimerEvent: {}
+[8.018024] (-) TimerEvent: {}
+[8.119344] (-) TimerEvent: {}
+[8.220417] (-) TimerEvent: {}
+[8.317385] (robot_comp) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_comp', 'build', '--build-base', '/home/mi/workplace/build/robot_comp/build', 'install', '--prefix', '/home/mi/workplace/install/robot_comp', '--record', '/home/mi/workplace/build/robot_comp/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/robot_comp', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.33 3243 22', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'OLDPWD': '/home/mi', 'SSH_TTY': '/dev/pts/23', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '5', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/visual:/home/mi/workplace/install/robot_comp:/home/mi/workplace/install/learning:/home/mi/workplace/install/basic_move:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'PWD': '/home/mi/workplace/build/robot_comp', 'SSH_CONNECTION': '10.0.0.33 3243 10.0.0.180 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:/home/mi/workplace/install/visual/lib/python3.6/site-packages:/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/home/mi/workplace/install/basic_move/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[8.323058] (-) TimerEvent: {}
+[8.352324] (visual) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/visual', 'build', '--build-base', '/home/mi/workplace/build/visual/build', 'install', '--prefix', '/home/mi/workplace/install/visual', '--record', '/home/mi/workplace/build/visual/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/visual', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.33 3243 22', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'OLDPWD': '/home/mi', 'SSH_TTY': '/dev/pts/23', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '5', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/visual:/home/mi/workplace/install/robot_comp:/home/mi/workplace/install/learning:/home/mi/workplace/install/basic_move:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'PWD': '/home/mi/workplace/build/visual', 'SSH_CONNECTION': '10.0.0.33 3243 10.0.0.180 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workplace/install/visual/lib/python3.6/site-packages:/home/mi/workplace/install/visual/lib/python3.6/site-packages:/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/home/mi/workplace/install/basic_move/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[8.385323] (basic_move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/basic_move', 'build', '--build-base', '/home/mi/workplace/build/basic_move/build', 'install', '--prefix', '/home/mi/workplace/install/basic_move', '--record', '/home/mi/workplace/build/basic_move/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/basic_move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.33 3243 22', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'SHLVL': '1', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'OLDPWD': '/home/mi', 'SSH_TTY': '/dev/pts/23', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '5', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/visual:/home/mi/workplace/install/robot_comp:/home/mi/workplace/install/learning:/home/mi/workplace/install/basic_move:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'PWD': '/home/mi/workplace/build/basic_move', 'SSH_CONNECTION': '10.0.0.33 3243 10.0.0.180 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workplace/install/basic_move/lib/python3.6/site-packages:/home/mi/workplace/install/visual/lib/python3.6/site-packages:/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/home/mi/workplace/install/basic_move/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[8.423628] (-) TimerEvent: {}
+[8.528591] (-) TimerEvent: {}
+[8.630968] (-) TimerEvent: {}
+[8.732069] (-) TimerEvent: {}
+[8.833630] (-) TimerEvent: {}
+[8.934534] (-) TimerEvent: {}
+[9.035422] (-) TimerEvent: {}
+[9.136622] (-) TimerEvent: {}
+[9.238738] (-) TimerEvent: {}
+[9.339672] (-) TimerEvent: {}
+[9.440699] (-) TimerEvent: {}
+[9.541811] (-) TimerEvent: {}
+[9.642765] (-) TimerEvent: {}
+[9.744430] (-) TimerEvent: {}
+[9.846367] (-) TimerEvent: {}
+[9.947827] (-) TimerEvent: {}
+[10.050730] (-) TimerEvent: {}
+[10.071700] (basic_move) StdoutLine: {'line': b'running egg_info\n'}
+[10.075188] (basic_move) StdoutLine: {'line': b'writing ../../build/basic_move/basic_move.egg-info/PKG-INFO\n'}
+[10.078486] (basic_move) StdoutLine: {'line': b'writing dependency_links to ../../build/basic_move/basic_move.egg-info/dependency_links.txt\n'}
+[10.079592] (basic_move) StdoutLine: {'line': b'writing entry points to ../../build/basic_move/basic_move.egg-info/entry_points.txt\n'}
+[10.084435] (basic_move) StdoutLine: {'line': b'writing requirements to ../../build/basic_move/basic_move.egg-info/requires.txt\n'}
+[10.085563] (basic_move) StdoutLine: {'line': b'writing top-level names to ../../build/basic_move/basic_move.egg-info/top_level.txt\n'}
+[10.107591] (basic_move) StdoutLine: {'line': b"reading manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'\n"}
+[10.116349] (basic_move) StdoutLine: {'line': b"writing manifest file '../../build/basic_move/basic_move.egg-info/SOURCES.txt'\n"}
+[10.117613] (basic_move) StdoutLine: {'line': b'running build\n'}
+[10.118382] (basic_move) StdoutLine: {'line': b'running build_py\n'}
+[10.121424] (basic_move) StdoutLine: {'line': b'running install\n'}
+[10.124436] (basic_move) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.125726] (basic_move) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[10.127041] (basic_move) StdoutLine: {'line': b'running install_lib\n'}
+[10.132596] (basic_move) StdoutLine: {'line': b'running install_data\n'}
+[10.135082] (basic_move) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.143272] (basic_move) StdoutLine: {'line': b"removing '/home/mi/workplace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[10.145236] (visual) StdoutLine: {'line': b'running egg_info\n'}
+[10.146394] (basic_move) StdoutLine: {'line': b'Copying ../../build/basic_move/basic_move.egg-info to /home/mi/workplace/install/basic_move/lib/python3.6/site-packages/basic_move-0.0.0-py3.6.egg-info\n'}
+[10.148152] (visual) StdoutLine: {'line': b'writing ../../build/visual/visual.egg-info/PKG-INFO\n'}
+[10.150946] (-) TimerEvent: {}
+[10.153056] (visual) StdoutLine: {'line': b'writing dependency_links to ../../build/visual/visual.egg-info/dependency_links.txt\n'}
+[10.154708] (visual) StdoutLine: {'line': b'writing entry points to ../../build/visual/visual.egg-info/entry_points.txt\n'}
+[10.155240] (visual) StdoutLine: {'line': b'writing requirements to ../../build/visual/visual.egg-info/requires.txt\n'}
+[10.155748] (basic_move) StdoutLine: {'line': b'running install_scripts\n'}
+[10.156247] (visual) StdoutLine: {'line': b'writing top-level names to ../../build/visual/visual.egg-info/top_level.txt\n'}
+[10.173406] (visual) StdoutLine: {'line': b"reading manifest file '../../build/visual/visual.egg-info/SOURCES.txt'\n"}
+[10.179597] (visual) StdoutLine: {'line': b"writing manifest file '../../build/visual/visual.egg-info/SOURCES.txt'\n"}
+[10.181300] (visual) StdoutLine: {'line': b'running build\n'}
+[10.182333] (visual) StdoutLine: {'line': b'running build_py\n'}
+[10.183137] (visual) StdoutLine: {'line': b'copying visual/ball_tracker.py -> /home/mi/workplace/build/visual/build/lib/visual\n'}
+[10.184247] (visual) StdoutLine: {'line': b'running install\n'}
+[10.185950] (visual) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.186572] (visual) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[10.198015] (visual) StdoutLine: {'line': b'running install_lib\n'}
+[10.198806] (visual) StdoutLine: {'line': b'copying /home/mi/workplace/build/visual/build/lib/visual/ball_tracker.py -> /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual\n'}
+[10.199329] (visual) StdoutLine: {'line': b'byte-compiling /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual/ball_tracker.py to ball_tracker.cpython-36.pyc\n'}
+[10.201854] (visual) StdoutLine: {'line': b'running install_data\n'}
+[10.204701] (visual) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.213344] (visual) StdoutLine: {'line': b"removing '/home/mi/workplace/install/visual/lib/python3.6/site-packages/visual-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[10.215310] (visual) StdoutLine: {'line': b'Copying ../../build/visual/visual.egg-info to /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual-0.0.0-py3.6.egg-info\n'}
+[10.221705] (visual) StdoutLine: {'line': b'running install_scripts\n'}
+[10.247617] (basic_move) StdoutLine: {'line': b'Installing liedown script to /home/mi/workplace/install/basic_move/lib/basic_move\n'}
+[10.249098] (basic_move) StdoutLine: {'line': b'Installing stand script to /home/mi/workplace/install/basic_move/lib/basic_move\n'}
+[10.250503] (basic_move) StdoutLine: {'line': b'Installing walk script to /home/mi/workplace/install/basic_move/lib/basic_move\n'}
+[10.251291] (-) TimerEvent: {}
+[10.252761] (basic_move) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workplace/build/basic_move/install.log'\n"}
+[10.289091] (robot_comp) StdoutLine: {'line': b'running egg_info\n'}
+[10.292660] (robot_comp) StdoutLine: {'line': b'writing ../../build/robot_comp/robot_comp.egg-info/PKG-INFO\n'}
+[10.295863] (robot_comp) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_comp/robot_comp.egg-info/dependency_links.txt\n'}
+[10.297726] (robot_comp) StdoutLine: {'line': b'writing entry points to ../../build/robot_comp/robot_comp.egg-info/entry_points.txt\n'}
+[10.298891] (robot_comp) StdoutLine: {'line': b'writing requirements to ../../build/robot_comp/robot_comp.egg-info/requires.txt\n'}
+[10.299397] (robot_comp) StdoutLine: {'line': b'writing top-level names to ../../build/robot_comp/robot_comp.egg-info/top_level.txt\n'}
+[10.315272] (visual) StdoutLine: {'line': b'Installing ball_tracker script to /home/mi/workplace/install/visual/lib/visual\n'}
+[10.317467] (robot_comp) StdoutLine: {'line': b"reading manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'\n"}
+[10.318508] (visual) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workplace/build/visual/install.log'\n"}
+[10.325883] (robot_comp) StdoutLine: {'line': b"writing manifest file '../../build/robot_comp/robot_comp.egg-info/SOURCES.txt'\n"}
+[10.329888] (robot_comp) StdoutLine: {'line': b'running build\n'}
+[10.330535] (robot_comp) StdoutLine: {'line': b'running build_py\n'}
+[10.331376] (robot_comp) StdoutLine: {'line': b'running install\n'}
+[10.334025] (robot_comp) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.335260] (robot_comp) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[10.335872] (robot_comp) StdoutLine: {'line': b'running install_lib\n'}
+[10.343476] (robot_comp) StdoutLine: {'line': b'running install_data\n'}
+[10.346542] (robot_comp) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.355384] (-) TimerEvent: {}
+[10.361803] (robot_comp) StdoutLine: {'line': b"removing '/home/mi/workplace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[10.366532] (robot_comp) StdoutLine: {'line': b'Copying ../../build/robot_comp/robot_comp.egg-info to /home/mi/workplace/install/robot_comp/lib/python3.6/site-packages/robot_comp-0.0.0-py3.6.egg-info\n'}
+[10.376304] (robot_comp) StdoutLine: {'line': b'running install_scripts\n'}
+[10.377302] (basic_move) CommandEnded: {'returncode': 0}
+[10.456481] (-) TimerEvent: {}
+[10.468314] (robot_comp) StdoutLine: {'line': b'Installing main script to /home/mi/workplace/install/robot_comp/lib/robot_comp\n'}
+[10.471554] (robot_comp) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workplace/build/robot_comp/install.log'\n"}
+[10.504449] (basic_move) JobEnded: {'identifier': 'basic_move', 'rc': 0}
+[10.517677] (visual) CommandEnded: {'returncode': 0}
+[10.558621] (-) TimerEvent: {}
+[10.570180] (visual) JobEnded: {'identifier': 'visual', 'rc': 0}
+[10.593973] (robot_comp) CommandEnded: {'returncode': 0}
+[10.643087] (robot_comp) JobEnded: {'identifier': 'robot_comp', 'rc': 0}
+[10.650596] (-) EventReactorShutdown: {}

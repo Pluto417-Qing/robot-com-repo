@@ -20,6 +20,7 @@ setup(
     entry_points={
         "console_scripts": [
             "ball_tracker=visual.ball_tracker:main",
+            "tester=visual.img_save:main",
         ],
     },
 )

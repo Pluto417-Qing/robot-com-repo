@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.002698] (basic_move) JobQueued: {'identifier': 'basic_move', 'dependencies': OrderedDict()}
+[0.004370] (robot_comp) JobQueued: {'identifier': 'robot_comp', 'dependencies': OrderedDict()}
+[0.004603] (visual) JobQueued: {'identifier': 'visual', 'dependencies': OrderedDict()}
+[0.004856] (basic_move) JobStarted: {'identifier': 'basic_move'}
+[0.099201] (-) TimerEvent: {}
+[0.109090] (robot_comp) JobStarted: {'identifier': 'robot_comp'}
+[0.201124] (visual) JobStarted: {'identifier': 'visual'}
+[0.203560] (-) TimerEvent: {}
+[0.313185] (-) TimerEvent: {}
+[0.415448] (-) TimerEvent: {}
+[0.516488] (-) TimerEvent: {}
+[0.617519] (-) TimerEvent: {}
+[0.718520] (-) TimerEvent: {}
+[0.819493] (-) TimerEvent: {}
+[0.920553] (-) TimerEvent: {}
+[1.021611] (-) TimerEvent: {}
+[1.122687] (-) TimerEvent: {}
+[1.223685] (-) TimerEvent: {}
+[1.324854] (-) TimerEvent: {}
+[1.425950] (-) TimerEvent: {}
+[1.526943] (-) TimerEvent: {}
+[1.627968] (-) TimerEvent: {}
+[1.729014] (-) TimerEvent: {}
+[1.829998] (-) TimerEvent: {}
+[1.931851] (-) TimerEvent: {}
+[2.033562] (-) TimerEvent: {}
+[2.135683] (-) TimerEvent: {}
+[2.236793] (-) TimerEvent: {}
+[2.337793] (-) TimerEvent: {}
+[2.439603] (-) TimerEvent: {}
+[2.540727] (-) TimerEvent: {}
+[2.641802] (-) TimerEvent: {}
+[2.742726] (-) TimerEvent: {}
+[2.844999] (-) TimerEvent: {}
+[2.945991] (-) TimerEvent: {}
+[3.047015] (-) TimerEvent: {}
+[3.148064] (-) TimerEvent: {}
+[3.249096] (-) TimerEvent: {}
+[3.350162] (-) TimerEvent: {}
+[3.451102] (-) TimerEvent: {}
+[3.552060] (-) TimerEvent: {}
+[3.653294] (-) TimerEvent: {}
+[3.755499] (-) TimerEvent: {}
+[3.857568] (-) TimerEvent: {}
+[3.874116] (visual) JobEnded: {'identifier': 'visual', 'rc': 0}
+[3.885328] (basic_move) JobEnded: {'identifier': 'basic_move', 'rc': 'SIGINT'}
+[3.889409] (robot_comp) JobEnded: {'identifier': 'robot_comp', 'rc': 'SIGINT'}
+[3.894860] (-) EventReactorShutdown: {}

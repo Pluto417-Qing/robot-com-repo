@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/visual/visual.egg-info/PKG-INFO
+writing dependency_links to ../../build/visual/visual.egg-info/dependency_links.txt
+writing entry points to ../../build/visual/visual.egg-info/entry_points.txt
+writing requirements to ../../build/visual/visual.egg-info/requires.txt
+writing top-level names to ../../build/visual/visual.egg-info/top_level.txt
+reading manifest file '../../build/visual/visual.egg-info/SOURCES.txt'
+writing manifest file '../../build/visual/visual.egg-info/SOURCES.txt'
+running build
+running build_py
+copying visual/img_save.py -> /home/mi/workplace/build/visual/build/lib/visual
+running install
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+running install_lib
+copying /home/mi/workplace/build/visual/build/lib/visual/img_save.py -> /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual
+byte-compiling /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual/img_save.py to img_save.cpython-36.pyc
+running install_data
+running install_egg_info
+removing '/home/mi/workplace/install/visual/lib/python3.6/site-packages/visual-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/visual/visual.egg-info to /home/mi/workplace/install/visual/lib/python3.6/site-packages/visual-0.0.0-py3.6.egg-info
+running install_scripts
+Installing ball_tracker script to /home/mi/workplace/install/visual/lib/visual
+Installing tester script to /home/mi/workplace/install/visual/lib/visual
+writing list of installed files to '/home/mi/workplace/build/visual/install.log'

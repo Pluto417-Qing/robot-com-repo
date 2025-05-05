@@ -2,7 +2,8 @@ import rclpy
 from rclpy.node import Node
 from protocol.srv import MotionResultCmd
 
-my_dog_name = "dog1"
+my_dog_name = "dog2"
+
 
 class liedown(Node):
     def __init__(self, name):

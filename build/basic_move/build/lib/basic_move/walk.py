@@ -4,7 +4,8 @@ import rclpy
 from rclpy.node import Node
 from protocol.msg import MotionServoCmd
 
-my_dog_name = "dog1"
+my_dog_name = "dog2"
+
 
 class walk(Node):
     def __init__(self, name):
@@ -43,6 +44,7 @@ class walk(Node):
         # msg.vel_des=[self.speed_x, self.speed_y, self.speed_z]
         msg.step_height = [0.05, 0.05]
         self.pub.publish(msg)
+
 
 def main(args=None):
     rclpy.init(args=args)
