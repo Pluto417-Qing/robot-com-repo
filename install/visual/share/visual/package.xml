@@ -13,6 +13,13 @@
   <test_depend>python3-pytest</test_depend>
   <test_depend>pytest</test_depend>
   <test_depend>PIL</test_depend>
+  <test_depend>opencv-python</test_depend>
+  <test_depend>ultralytics</test_depend>
+  <test_depend>numpy</test_depend>
+
+  <exec_depend>PIL</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>
