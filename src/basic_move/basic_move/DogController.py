@@ -11,7 +11,7 @@ from typing import Optional
 my_dog_name = "dog1"
 
 class DogCommandGenerator:
-    """运动命令生成器"""
+    """运动命令生成器,不依赖ROS 2"""
     def __init__(self):
         self.ACTION_STOP = 0
         self.ACTION_LIE_DOWN = 101
@@ -22,12 +22,11 @@ class DogCommandGenerator:
         
         self.current_cmd = MotionServoCmd()
         self.current_cmd.cmd_type = 1
-        self.current_cmd.value = 0
+        self.current_cmd.value = 2
         self.current_cmd.step_height = [0.05, 0.05]
         self.current_cmd.motion_id = self.ACTION_STOP
         self.current_cmd.vel_des = [0.0, 0.0, 0.0]
         
-        # 创建一个线程锁，用于在多线程环境下保护共享资源（current_cmd）的访问
         self.lock = threading.Lock()
     
     def generate_command(self, action: Optional[int] = None, 
@@ -41,10 +40,10 @@ class DogCommandGenerator:
             if degree != 0:
                 vel_x = 0.0
                 vel_y = 0.0
-                vel_z = speed * math.sin(math.radians(degree))
+                vel_z = speed #* math.sin(math.radians(degree))
             else:
                 vel_x = speed
-                vel_y = speed
+                vel_y = 0.0
                 vel_z = 0.0
                 
             self.current_cmd.vel_des = [vel_x, vel_y, vel_z]
@@ -195,5 +194,3 @@ def main():
         controller.shutdown()
         rclpy.shutdown()
 
-if __name__ == "__main__":
-    main()
