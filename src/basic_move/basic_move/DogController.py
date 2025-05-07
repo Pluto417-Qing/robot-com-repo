@@ -11,7 +11,7 @@ from typing import Optional
 my_dog_name = "dog1"
 
 class DogCommandGenerator:
-    """运动命令生成器,不依赖ROS 2"""
+    """运动命令生成器"""
     def __init__(self):
         self.ACTION_STOP = 0
         self.ACTION_LIE_DOWN = 101
@@ -27,6 +27,7 @@ class DogCommandGenerator:
         self.current_cmd.motion_id = self.ACTION_STOP
         self.current_cmd.vel_des = [0.0, 0.0, 0.0]
         
+        # 创建一个线程锁，用于在多线程环境下保护共享资源（current_cmd）的访问
         self.lock = threading.Lock()
     
     def generate_command(self, action: Optional[int] = None, 
